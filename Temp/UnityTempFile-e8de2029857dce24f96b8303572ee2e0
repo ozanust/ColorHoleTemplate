@@ -1,0 +1,751 @@
+/target:library
+/nowarn:0169
+/out:Temp/Unity.ShaderGraph.Editor.dll
+/debug:portable
+/optimize-
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:Library/ScriptAssemblies/Unity.ShaderGraph.Utilities.dll
+/reference:Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
+/reference:Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+/reference:Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEditor.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/Managed/UnityEditor.Graphs.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+/reference:"C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll"
+/reference:"X:/GoodJob Color Hole/Library/PackageCache/com.unity.render-pipelines.core@7.3.1/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll"
+/reference:"X:/GoodJob Color Hole/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll"
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll
+/reference:X:/Unity/2019.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll
+/define:UNITY_2019_3_10
+/define:UNITY_2019_3
+/define:UNITY_2019
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:UNITY_INCLUDE_TESTS
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_PHYSICS
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_UNET
+/define:ENABLE_LZMA
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_WWW
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:ENABLE_RUNTIME_PERMISSIONS
+/define:ENABLE_ENGINE_CODE_STRIPPING
+/define:ENABLE_ONSCREEN_KEYBOARD
+/define:INCLUDE_DYNAMIC_GI
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:PLATFORM_SUPPORTS_MONO
+/define:ENABLE_VIDEO
+/define:PLATFORM_ANDROID
+/define:UNITY_ANDROID
+/define:UNITY_ANDROID_API
+/define:ENABLE_EGL
+/define:ENABLE_NETWORK
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:PLATFORM_SUPPORTS_ADS_ID
+/define:UNITY_CAN_SHOW_SPLASH_SCREEN
+/define:UNITY_HAS_GOOGLEVR
+/define:UNITY_HAS_TANGO
+/define:ENABLE_SPATIALTRACKING
+/define:UNITY_ASTC_ONLY_DECOMPRESS
+/define:ENABLE_UNITYADS_RUNTIME
+/define:UNITY_UNITYADS_API
+/define:ENABLE_MONO
+/define:NET_4_6
+/define:ENABLE_PROFILER
+/define:DEBUG
+/define:TRACE
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_BURST_AOT
+/define:UNITY_TEAM_LICENSE
+/define:ENABLE_VSTU
+/define:UNITY_PRO_LICENSE
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_LEGACY_INPUT_MANAGER
+/define:CSHARP_7_OR_LATER
+/define:CSHARP_7_3_OR_NEWER
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\AssemblyInfo.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\AssetCallbacks\CreateShaderGraph.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\AssetCallbacks\CreateShaderSubGraph.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\CodeGen\ActiveFields.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\CodeGen\GenerationResults.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\CodeGen\GenerationUtils.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\CodeGen\GraphCompilationResult.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\CodeGen\MatrixNames.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\CodeGen\PropertyCollector.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\CodeGen\ShaderGenerator.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\CodeGen\ShaderGeneratorNames.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\CodeGen\ShaderSourceMap.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\CodeGen\ShaderSpliceUtil.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\CodeGen\ShaderStringBuilder.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\CodeGen\SubShaderGenerator.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Attributes\BuiltinKeywordAttribute.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Enumerations\Precision.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\AbstractMaterialGraphAsset.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\AbstractShaderProperty.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\BitangentMaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\BooleanMaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\BooleanShaderProperty.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\ColorMaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\ColorRGBMaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\ColorShaderProperty.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\CubemapInputMaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\CubemapMaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\CubemapShaderProperty.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\DynamicMatrixMaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\DynamicValueMaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\DynamicVectorMaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\GradientInputMaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\GradientMaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\GradientShaderProperty.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\GraphData.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\GroupData.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\IMaterialGraphAsset.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\IMaterialSlotHasValue.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\MaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\Matrix2MaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\Matrix2ShaderProperty.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\Matrix3MaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\Matrix3ShaderProperty.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\Matrix4MaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\Matrix4ShaderProperty.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\MatrixShaderProperty.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\MinimalGraphData.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\NormalMaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\ParentGroupChange.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\PositionMaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\PreviewMode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\PreviewProperty.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\SamplerStateMaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\SamplerStateShaderProperty.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\ScreenPositionMaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\SerializableCubemap.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\SerializableGuid.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\SerializableMesh.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\SerializableTexture.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\SerializableTextureArray.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\ShaderGraphRequirements.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\ShaderInput.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\ShaderKeyword.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\SpaceMaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\StickyNoteData.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\TangentMaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\Texture2DArrayInputMaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\Texture2DArrayMaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\Texture2DArrayShaderProperty.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\Texture2DInputMaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\Texture2DMaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\Texture2DShaderProperty.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\Texture3DInputMaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\Texture3DMaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\Texture3DShaderProperty.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\TextureSamplerState.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\UVMaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\Vector1MaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\Vector1ShaderProperty.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\Vector2MaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\Vector2ShaderProperty.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\Vector3MaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\Vector3ShaderProperty.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\Vector4MaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\Vector4ShaderProperty.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\VectorShaderProperty.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\VertexColorMaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Graphs\ViewDirectionMaterialSlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Implementation\Edge.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Implementation\GraphObject.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Implementation\HasDependenciesAttribute.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Implementation\IHasDependencies.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Implementation\NodeUtils.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Implementation\SlotType.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Interfaces\GenerationMode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Interfaces\Graph\DrawState.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Interfaces\Graph\GraphDrawingData.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Interfaces\Graph\IEdge.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Interfaces\Graph\INode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Interfaces\Graph\IOnAssetEnabled.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Interfaces\Graph\ISlot.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Interfaces\Graph\SlotReference.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Interfaces\IGeneratesBodyCode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Interfaces\IGeneratesFunction.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Interfaces\IGroupItem.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Interfaces\IHasSettings.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Interfaces\IMayRequireBitangent.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Interfaces\IMayRequireCameraOpaqueTexture.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Interfaces\IMayRequireDepthTexture.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Interfaces\IMayRequireFaceSign.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Interfaces\IMayRequireMeshUV.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Interfaces\IMayRequireNormal.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Interfaces\IMayRequirePosition.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Interfaces\IMayRequireScreenPosition.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Interfaces\IMayRequireTangent.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Interfaces\IMayRequireTime.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Interfaces\IMayRequireVertexColor.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Interfaces\IMayRequireVertexSkinning.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Interfaces\IMayRequireViewDirection.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Interfaces\NeededCoordinateSpace.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\MasterNodes\AlphaMode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\MasterNodes\DistortionMode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\MasterNodes\DoubleSidedMode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\MasterNodes\EmissionGIMode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\MasterNodes\IPBRSubShader.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\MasterNodes\ISubShader.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\MasterNodes\IUnlitSubShader.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\MasterNodes\PBRMasterNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\MasterNodes\SpecularOcclusionMode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\MasterNodes\UnlitMasterNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\MasterNodes\VfxMasterNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\AbstractMaterialNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Artistic\Adjustment\ChannelMixerNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Artistic\Adjustment\ContrastNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Artistic\Adjustment\HueNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Artistic\Adjustment\InvertColorsNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Artistic\Adjustment\ReplaceColorNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Artistic\Adjustment\SaturationNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Artistic\Adjustment\WhiteBalanceNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Artistic\Blend\BlendMode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Artistic\Blend\BlendNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Artistic\Filter\DitherNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Artistic\Mask\ChannelMaskNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Artistic\Mask\ColorMaskNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Artistic\Normal\NormalBlendNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Artistic\Normal\NormalFromHeightNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Artistic\Normal\NormalFromTextureNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Artistic\Normal\NormalReconstructZNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Artistic\Normal\NormalStrengthNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Artistic\Normal\NormalUnpackNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Artistic\Utility\ColorspaceConversion.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Channel\CombineNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Channel\FlipNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Channel\SplitNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Channel\SwizzleNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\CodeFunctionNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\FormerNameAttribute.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\FunctionMultiInput.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\GeometryNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\GuidEncoder.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\IMasterNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\IPropertyFromNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Basic\BooleanNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Basic\ColorNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Basic\ConstantNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Basic\IntegerNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Basic\SliderNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Basic\TimeNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Basic\Vector1Node.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Basic\Vector2Node.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Basic\Vector3Node.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Basic\Vector4Node.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Geometry\BitangentVectorNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Geometry\NormalVectorNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Geometry\PositionNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Geometry\ScreenPositionNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Geometry\TangentVectorNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Geometry\UVNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Geometry\VertexColorNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Geometry\ViewDirectionNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Gradient\GradientNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Gradient\SampleGradientNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Lighting\AmbientNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Lighting\BakedGINode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Lighting\ReflectionProbeNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Matrix\Matrix2Node.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Matrix\Matrix3Node.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Matrix\Matrix4Node.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Matrix\TransformationMatrixNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\PBR\DielectricSpecularNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\PBR\MetalReflectanceNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\PropertyNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Scene\CameraNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Scene\FogNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Scene\ObjectNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Scene\SceneColorNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Scene\SceneDepthNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Scene\ScreenNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Texture\CubemapAssetNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Texture\SampleCubemapNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Texture\SampleTexture2DArrayNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Texture\SampleTexture2DLODNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Texture\SampleTexture2DNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Texture\SampleTexture3DNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Texture\SamplerStateNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Texture\TexelSizeNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Texture\Texture2DArrayAssetNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Texture\Texture2DAssetNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Input\Texture\Texture3DAssetNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\MasterNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Advanced\AbsoluteNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Advanced\ExponentialNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Advanced\LengthNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Advanced\LogNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Advanced\ModuloNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Advanced\NegateNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Advanced\NormalizeNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Advanced\PosterizeNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Advanced\ReciprocalNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Advanced\ReciprocalSquareRootNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Basic\AddNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Basic\DivideNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Basic\MultiplyNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Basic\PowerNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Basic\SquareRootNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Basic\SubtractNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Derivative\DDXNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Derivative\DDXYNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Derivative\DDYNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Interpolation\InverseLerpNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Interpolation\LerpNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Interpolation\SmoothstepNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Matrix\MatrixConstructionNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Matrix\MatrixDeterminantNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Matrix\MatrixSplitNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Matrix\MatrixTransposeNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Range\ClampNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Range\FractionNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Range\MaximumNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Range\MinimumNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Range\OneMinusNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Range\RandomRangeNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Range\RemapNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Range\SaturateNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Round\CeilingNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Round\FloorNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Round\RoundNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Round\SignNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Round\StepNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Round\TruncateNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Trigonometry\ArccosineNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Trigonometry\ArcsineNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Trigonometry\Arctangent2Node.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Trigonometry\ArctangentNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Trigonometry\CosineNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Trigonometry\DegreesToRadiansNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Trigonometry\HyperbolicCosineNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Trigonometry\HyperbolicSineNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Trigonometry\HyperbolicTangentNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Trigonometry\RadiansToDegreesNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Trigonometry\SineNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Trigonometry\TangentNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Vector\CrossProductNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Vector\DistanceNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Vector\DotProductNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Vector\FresnelEffectNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Vector\ProjectionNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Vector\ReflectionNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Vector\RejectionNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Vector\RotateAboutAxisNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Vector\SphereMaskNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Vector\TransformNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Wave\NoiseSineWaveNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Wave\SawtoothWaveNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Wave\SquareWaveNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Math\Wave\TriangleWaveNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\NormalMapSpace.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Procedural\CheckerboardNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Procedural\Noise\GradientNoiseNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Procedural\Noise\SimpleNoiseNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Procedural\Noise\VoronoiNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Procedural\Shape\EllipseNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Procedural\Shape\PolygonNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Procedural\Shape\RectangleNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Procedural\Shape\RoundedRectangleNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\ShaderStage.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\SlotValue.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\TitleAttribute.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\UV\FlipbookNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\UV\PolarCoordinatesNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\UV\RadialShearNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\UV\RotateNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\UV\SpherizeNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\UV\TilingAndOffsetNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\UV\TriplanarNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\UV\TwirlNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Utility\CustomFunctionNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Utility\KeywordNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Utility\Logic\AllNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Utility\Logic\AndNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Utility\Logic\AnyNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Utility\Logic\BranchNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Utility\Logic\ComparisonNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Utility\Logic\IsFrontFaceNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Utility\Logic\IsInfiniteNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Utility\Logic\IsNanNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Utility\Logic\NandNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Utility\Logic\NotNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Utility\Logic\OrNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Utility\PreviewNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Utility\SubGraphNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Nodes\Vertex Skinning\LinearBlendSkinningNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\SubGraph\SubGraphAsset.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\SubGraph\SubGraphOutputNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\SurfaceModel\SurfaceMaterialOptions.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\SurfaceModel\SurfaceMaterialTags.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\UniversalPipeline\UniversalFastBlinnMasterNode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Util\DictionaryPool.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Util\FunctionRegistry.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Util\GradientUtil.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Util\GraphUtil.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Util\Identifier.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Util\IndexSetPool.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Util\KeywordCollector.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Util\KeywordDependentCollection.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Util\KeywordUtil.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Util\ListPool.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Util\Logging.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Util\ObjectPool.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Util\PooledList.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Util\PooledObject.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Util\PrecisionUtil.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Util\PropertyUtil.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Util\QueuePool.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Util\ScreenSpaceType.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Util\SerializationHelper.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Util\ShaderGraphRequirementsPerKeyword.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Util\SlotValueTypeUtil.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Util\StackPool.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Util\TextUtil.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Data\Util\UvChannel.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\DefaultShaderIncludes.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Blackboard\BlackboardFieldKeywordView.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Blackboard\BlackboardFieldPropertyView.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Blackboard\BlackboardFieldView.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Blackboard\BlackboardProvider.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Colors\CategoryColors.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Colors\ColorManager.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Colors\CustomColorData.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Colors\IColorProvider.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Colors\NoColors.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Colors\PrecisionColors.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Colors\UserColors.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Controls\ButtonControl.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Controls\ChannelEnumControl.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Controls\ChannelEnumMaskControl.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Controls\ChannelMixerControl.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Controls\ColorControl.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Controls\CubemapControl.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Controls\DefaultControl.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Controls\DielectricSpecularControl.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Controls\EnumControl.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Controls\EnumConversionControl.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Controls\GradientControl.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Controls\IControlAttribute.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Controls\IntegerControl.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Controls\ObjectControl.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Controls\PopupControl.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Controls\SliderControl.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Controls\Texture3DControl.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Controls\TextureArrayControl.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Controls\TextureControl.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Controls\ToggleControl.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Controls\VectorControl.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\EdgeConnectorListener.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\INodeModificationListener.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Inspector\MasterPreviewView.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Inspector\WindowDockingLayout.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Manipulators\Draggable.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Manipulators\ResizeBorderFrame.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Manipulators\ResizeSideHandle.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Manipulators\Scrollable.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Manipulators\WindowDraggable.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\MaterialGraphEditWindow.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\MaterialGraphPreviewGenerator.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\PreviewManager.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\PreviewRate.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\SearchWindowProvider.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\FloatField.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\GradientEdge.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\GraphEditorView.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\HlslFunctionView.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\IShaderNodeView.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\MaterialGraphView.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\MaterialNodeView.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\NodeSettingsView.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\PBRSettingsView.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\PortInputView.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\PreviewSceneResources.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\PropertyNodeView.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\PropertyRow.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\PropertySheet.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\ReorderableSlotListView.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\ShaderGroup.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\ShaderPort.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\Slots\BooleanSlotControlView.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\Slots\ColorRGBSlotControlView.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\Slots\ColorSlotControlView.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\Slots\CubemapSlotControlView.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\Slots\GradientSlotControlView.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\Slots\LabelSlotControlView.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\Slots\MultiFloatSlotControlView.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\Slots\ScreenPositionSlotControlView.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\Slots\Texture3DSlotControlView.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\Slots\TextureArraySlotControlView.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\Slots\TextureSlotControlView.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\Slots\UVSlotControlView.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\StickyNote.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Drawing\Views\UnlitSettingsView.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Importers\ShaderGraphAssetPostProcessor.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Importers\ShaderGraphImporter.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Importers\ShaderGraphImporterEditor.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Importers\ShaderGraphMetadata.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Importers\ShaderSubGraphImporter.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Importers\ShaderSubGraphImporterEditor.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Internal\Data\KeywordDescriptor.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Internal\Data\KeywordEntry.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Internal\Data\ShaderPass.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Internal\Enumerations\KeywordDefinition.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Internal\Enumerations\KeywordScope.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Internal\Enumerations\KeywordType.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Internal\Enumerations\NormalDropOffSpace.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Internal\Enumerations\PropertyType.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Internal\GraphCode.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Internal\OutputMetadata.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Internal\ShaderGraphVfxAsset.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\ShaderGUI\PBRMasterGUI.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\ShaderGraphAnalytics.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\ShaderGraphPreferences.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Util\CompatibilityExtensions.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Util\CopyPasteGraph.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Util\CreateSerializableGraph.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Util\Documentation.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Util\FileUtilities.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Util\IndexSet.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Util\MessageManager.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Util\TypeMapper.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Util\TypeMapping.cs"
+"X:\GoodJob Color Hole\Library\PackageCache\com.unity.shadergraph@7.3.1\Editor\Util\UIUtilities.cs"
